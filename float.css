@@ -1,0 +1,21 @@
+/*html{*/
+/*    font-size: 25px;*/
+/*}*/
+.container{
+    border :1px solid grey;
+}
+.container:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.avatar{
+    width: 5rem;
+    height: 5rem;
+    background-color: orange;
+    float: left;
+    margin: 5px;
+}
+.clear-float{
+    clear: both;
+}
