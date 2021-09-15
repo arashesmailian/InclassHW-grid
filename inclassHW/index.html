@@ -3,46 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <title>grid</title>
-
+    <meta main="viewport" content="width=device-width,initial-scale=1.0">
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <link href="../inclassHW/style.css" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/adobe-clean" rel="stylesheet">
+
 </head>
 <body>
 
 <div class="container">
     <div class="sidebar">
-        <div style="padding: 20px">
-            <h2 style="color: #1A237E">Lorem ipsum dolor sit amet.</h2>
-            <h3 style="color: #1A237E">Work</h3>
+        <div>
+            <div style="display: flex;flex-direction: row;align-items: center;justify-content: space-between">
+                <h2 style="color: #1A237E; padding-left: 0;font-size: 2rem">Lorem ipsum dolor sit amet.</h2>
+                <ion-icon class="three" name="reorder-three-outline"></ion-icon>
+            </div>
+            <h3 style="color: #1A237E; font-size: 1rem">Work</h3>
             <h4>Lorem ipsum dolor.</h4>
             <h4>Lorem ipsum dolor.</h4>
             <h4>Lorem ipsum dolor.</h4>
             <h4>Lorem ipsum dolor.</h4>
             <h4>Lorem ipsum dolor.</h4>
-            <h3 style="color: #1A237E;margin-top: 30px">Contact</h3>
-            <div class="sidebar-items">
-            <span><ion-icon  class="ion-icon" name="logo-linkedin"></ion-icon></span>
-            <span><ion-icon class="ion-icon" name="logo-instagram"></ion-icon></span>
-            <span><ion-icon class="ion-icon" name="logo-facebook"></ion-icon></span>
+            <h3 style="color: #1A237E;margin-top: 30px;font-size: 1rem">Contact</h3>
+            <div class="div-button1">
+<!--                <ul>-->
+<!--                    <li>-->
+<!--                        <a href="https://www.behance.net/rosemarijn" target="_blank">-->
+<!--                            <ion-icon name="logo-behance"></ion-icon>-->
+<!--                        </a>-->
+<!--                    </li>-->
+<!--                    <li></li>-->
+<!--                    <li></li>-->
+<!--                </ul>-->
+                <button><ion-icon class="icon" name="logo-behance"></ion-icon></button>
+                <button><ion-icon class="icon" name="logo-linkedin"></ion-icon></button>
+                <button><ion-icon class="icon" name="logo-instagram"></ion-icon></button>
             </div>
         </div>
     </div>
     <div class="header">
-        <h2 style="text-align: center">Lorem i, consectetur adipisicing elit. Accusantium itaque olestias numquam!<br>m Amet aperiam,
+        <h2 style="text-align: center">Lorem i, consectetur adipisicing elit. Accusantium itaque olestias numquam!<br>m
+            Amet aperiam,
             cupiditate dololabore maiores nulla praesentium qu<br>am rem? Ad cumque dignissimos ducimus eum
             fiure maxime </h2>
         <h4>Lorem ipsum dolor sit.</h4>
-       <div id="mobile">
-           <h2 style="display: inline-block">Lorem ipsum dolor sit amet.</h2>
-           <span style="display: inline-block;float: right"><ion-icon name="reorder-three-outline"></ion-icon></span>
-       </div>
     </div>
     <div class="gallery">
         <div><img src="Image/picture1.png"></div>
         <div><img src="Image/picture2.png"></div>
-        <div><img style="height: 52%" src="Image/picture3.png"></div>
-        <div><img style="height: 52%" src="Image/picture4.png"></div>
+        <div><img src="Image/picture3.png"></div>
+        <div><img src="Image/picture4.png"></div>
+    </div>
+
+    <div class="footer">
+        <div class="div-footer">
+            <div class="div-button">
+                <button><ion-icon class="icon" name="logo-behance"></ion-icon></button>
+                <button><ion-icon class="icon" name="logo-linkedin"></ion-icon></button>
+                <button><ion-icon class="icon" name="logo-instagram"></ion-icon></button>
+            </div>
+            <h4>Powered by Adobe Portfolio</h4>
+        </div>
+
     </div>
 </div>
 
